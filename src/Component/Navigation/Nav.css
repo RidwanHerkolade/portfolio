@@ -15,6 +15,7 @@
 }
 .nav__logo .logo__name {
     font-size: var(--font-logos);
+    color: var(--color-blue);
     font-weight: 800;
     display: flex;
     align-items: center;
