@@ -37,7 +37,7 @@
     font-weight: 700;
 }
 .project__para {
-    color: var(--color-h3);
+    color: var(--color-white);
     font-size: var(--font-logos);
     font-weight: 500;
 }
@@ -45,14 +45,14 @@
     display: flex;
     margin: 1rem 0rem;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 .toolsid {
     display: flex;
     align-items: center;
     color: var(--color-black2);
     background-color: transparent;
-    border: 0.1px solid var(--color-black2);
+    border: 0.6px solid var(--color-black2);
     font-weight: 700;
     border-radius: 0.2rem;
     padding: 0.4rem 1rem;
