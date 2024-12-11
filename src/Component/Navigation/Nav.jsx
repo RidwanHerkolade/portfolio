@@ -7,36 +7,35 @@ import CloseIcon from "@mui/icons-material/Close";
 import { motion } from "framer-motion";
 import "./Nav.css";
 
-const Nav = ({scrollToAbout, scrollToContact, scrollToProject}) => {
- 
+const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
   const [hide, setHide] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
   const handleMenu = () => {
     setHide((prevHide) => {
-      if(!prevHide) {
-        document.body.classList.add("no-scroll")
+      if (!prevHide) {
+        document.body.classList.add("no-scroll");
       } else {
-        document.body.classList.remove("no-scroll")
-      } return !prevHide
-    })
+        document.body.classList.remove("no-scroll");
+      }
+      return !prevHide;
+    });
   };
   // SCROLL EFFECT ON THE NAV BAR
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY > 10 ) {
-        setIsScrolled(true)
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
       } else {
-        setIsScrolled(false)
+        setIsScrolled(false);
       }
-    }
+    };
     window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll );
+      window.removeEventListener("scroll", handleScroll);
       document.body.classList.remove("no-scroll");
-    }
+    };
+  }, []);
 
-  }, []) 
-  
   return (
     <motion.nav
       initial={{ y: 50, opacity: 0 }}
@@ -59,34 +58,77 @@ const Nav = ({scrollToAbout, scrollToContact, scrollToProject}) => {
           <ArrowForwardIosIcon className="logo__icons" />
         </span>
       </div>
-      <ul className={`ul ${hide ? "ul__mobile" : "ul"}`}>
+      <motion.ul
+        className={`ul ${hide ? "ul__mobile" : "ul"}`}
+        initial={{ y: 200, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{
+          delay: 0.5,
+          y: { type: "spring", stiffness: "60" },
+          opacity: { duration: 1 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+      >
         <li>
-          <Link to="/"  className="links" onClick={(() => {scrollToAbout()})}>
+          <Link
+            to="/"
+            className="links"
+            onClick={() => {
+              scrollToAbout();
+            }}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="/"  className="links" onClick={(() => {scrollToProject()})}>
+          <Link
+            to="/"
+            className="links"
+            onClick={() => {
+              scrollToProject();
+            }}
+          >
             Project
           </Link>
         </li>
         <li>
-          <Link to="/" className="links" onClick={(() => {scrollToContact()})}>
+          <Link
+            to="/"
+            className="links"
+            onClick={() => {
+              scrollToContact();
+            }}
+          >
             Contact
           </Link>
         </li>
         <div className="">
-        <a className="btn" href="/img/ridwanAkolade_resume.pdf" target="_blank" download="ridwan_resume.pdf">Resume</a>
-         
-          </div>
-      </ul>
+          <a
+            className="btn"
+            href="/img/ridwanAkolade_resume.pdf"
+            target="_blank"
+            download="ridwan_resume.pdf"
+          >
+            Resume
+          </a>
+        </div>
+      </motion.ul>
       {hide ? (
         <div className="menu">
-          <CloseIcon onClick={handleMenu} style={{fontSize: "2.3rem"}} className="menu__icon"/>
+          <CloseIcon
+            onClick={handleMenu}
+            style={{ fontSize: "2.3rem" }}
+            className="menu__icon"
+          />
         </div>
       ) : (
         <div className="menu">
-           <MenuIcon onClick={handleMenu} className="menu__icon" style={{fontSize: "2.3rem"}}/>
+          <MenuIcon
+            onClick={handleMenu}
+            className="menu__icon"
+            style={{ fontSize: "2.3rem" }}
+          />
         </div>
       )}
     </motion.nav>

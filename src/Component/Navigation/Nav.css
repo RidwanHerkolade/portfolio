@@ -76,11 +76,11 @@
     .ul__mobile {
         display: flex;
         flex-direction: column;
+        padding: 5rem 0rem;
         background: var(--color-blue);
         width: 100%;
         left: 0rem;
         z-index: 5000;
-        padding: 1rem 0rem;
         justify-content: center;
         position: absolute;
         top: 5rem;
@@ -105,7 +105,7 @@
     }
     .ul__mobile {
         display: flex;
-        padding: 2rem 0rem;
+        padding: 5rem 0rem;
         flex-direction: column;
         background: var(--color-blue);
         color: var(--color-white);
@@ -114,9 +114,8 @@
         justify-content: center;
         position: absolute;
         top: 5rem;
-        padding: 1rem 0rem;
         align-items: center;
-        gap: 0rem;
+        gap: 1rem;
     }
     .ul__mobile .links {
         color: var(--color-h3);
@@ -142,11 +141,11 @@
         width: 100%;
         left: 0rem;
         justify-content: center;
-        padding: 1.5rem 0rem;
+        padding: 5rem 0rem;
         position: absolute;
         top: 5rem;
         align-items: center;
-        gap: 0rem;
+        gap: 1rem;
     }
     .ul__mobile .links {
         color: var(--color-h3);
@@ -175,8 +174,8 @@
         position: absolute;
         top: 5rem;
         align-items: center;
-        padding: 1.5rem 0rem;
-        gap: 0rem;
+        padding: 5rem 0rem;
+        gap: 1rem;
     }
     .ul__mobile .links {
         color: var(--color-h3);
@@ -201,12 +200,12 @@
         background: var(--color-blue);
         width: 100%;
         left: 0rem;
-        padding: 1.5rem 0rem;
+        padding: 5rem 0rem;
         justify-content: center;
         position: absolute;
         top: 5rem;
         align-items: center;
-        gap: 0rem;
+        gap: 1rem;
     }
     .ul__mobile .links {
         color: var(--color-h3);
