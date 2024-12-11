@@ -14,7 +14,7 @@
     font-family: var(--font-familys);
 }
 .nav__logo .logo__name {
-    font-size: var(--font-logos);
+    font-size: var(--font-news);
     color: var(--color-blue);
     font-weight: 800;
     display: flex;
@@ -54,6 +54,7 @@
 }
 .menu {
     display: none;
+    
 }
 .menu__icon {
     color: var(--color-blue);

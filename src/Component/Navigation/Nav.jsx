@@ -118,7 +118,7 @@ const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
         <div className="menu">
           <CloseIcon
             onClick={handleMenu}
-            style={{ fontSize: "2.3rem" }}
+            style={{ fontSize: "2.5rem", color:"rgb(18, 24, 54)", fontWeight: "800"}}
             className="menu__icon"
           />
         </div>
@@ -127,7 +127,7 @@ const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
           <MenuIcon
             onClick={handleMenu}
             className="menu__icon"
-            style={{ fontSize: "2.3rem" }}
+            style={{ fontSize: "2.5rem", color:"rgb(18, 24, 54)" , fontWeight: "800"}}
           />
         </div>
       )}
