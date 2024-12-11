@@ -1,0 +1,324 @@
+header {
+    margin-top: 7rem;
+}
+.header__social {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 8rem;
+}
+.header__icon {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    position: relative;
+}
+.header__icons {
+    color: var(--color-black2);
+    font-size: var(--font-logos);
+    cursor: pointer;
+}
+ .line{
+    width: 1px ;
+    position: absolute;
+    bottom: -13rem;
+    left: 0.5rem;
+    height: 200px;
+    background-color:  var(--color-black2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.main {
+    padding: 0rem 4rem;
+    /* border: 1px solid red; */
+}
+.header {
+    margin: 0rem 3rem;
+}
+ .main__div {
+    margin-top: 0rem;
+ }
+ text {
+    font-size: var(--font-logos);
+    font-weight: 600;
+    color: var(--color-blue);
+ }
+ .header__name {
+    font-size: var(--font-header);
+    color: var(--color-black2);
+    font-weight: 800;
+    line-height: 5rem;
+ }
+ .h3 {
+    font-size: var(--font-header);
+    font-weight: 800;
+    color: var(--color-h3);
+    line-height: 5rem;
+ }
+ .header__para {
+    width: 60%;
+    color: var(--color-h3);
+    font-size: var(--font-logos);
+    font-weight: 600;
+    margin-top: 1rem;
+ }
+ .header__para .span{
+    color: var(--color-black2);
+    font-weight: 800;
+    font-size: var(--font-logos);
+    
+ }
+ .yellow {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+ }
+ .resume {
+    border: 0.5px solid var(--color-blue);
+    color: var(--color-blue);
+    /* z-index: 2000; */
+    font-weight: 600;
+    font-size: var(--font-logos);
+    background-color: transparent;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+}
+.resume:hover{
+    border: 0.5px solid var(--color-blue);
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+.email__display {
+    writing-mode: vertical-rl;
+    position: fixed;
+    font-size: var(--font-logos);
+    color: var(--color-black2);
+    font-weight: 600;
+    right: 3rem;
+    bottom: 8rem;
+}
+.email__line {
+    width: 1px ;
+    position: absolute;
+    bottom: -13rem;
+    right: 1rem;
+    height: 200px;
+    background-color: var(--color-black2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media  (min-width: 280px) and (max-width: 390px) {
+    header {
+        margin-top: 7.5rem;
+     }
+    .main {
+        padding: 0rem 2rem;
+    }
+    .header {
+        margin: 0rem 1rem;
+    }
+    text {
+        font-size: var(--font-logos);
+     }
+     .header__name {
+        font-size: var(--font-desq);
+        line-height: 3rem;
+     }
+     .h3 {
+        font-size: var(--font-desq);
+        line-height: 2.5rem;
+     }
+     .header__para {
+        width: 90%;
+        line-height: 2rem;
+     }
+     .email__display {
+        display: flex;
+        writing-mode: vertical-rl;
+        position: fixed;
+        font-size: var(--font-logos);
+        color: var(--color-black2);
+        font-weight: 600;
+        right: 1rem;
+        bottom: 8rem;
+    }
+    .email__line {
+        width: 1px ;
+        position: absolute;
+        bottom: -13rem;
+        right: 1rem;
+        height: 200px;
+        background-color: var(--color-black2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+@media  (min-width: 391px) and (max-width: 418px) {
+    .main {
+        padding: 0rem 2rem;
+    }
+    .header {
+        margin: 0rem 1rem;
+    }
+    text {
+        font-size: var(--font-logos);
+     }
+     .header__name {
+        font-size: var(--font-desqs);
+        line-height: 3.5rem;
+     }
+     .h3 {
+        font-size: var(--font-desqs);
+        line-height: 3.5rem;
+     }
+     .header__para {
+        width: 100%;
+        line-height: 2rem;
+     }
+     .header__social {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 12rem;
+        /* right: 0rem; */
+    }
+    .email__display {
+        writing-mode: vertical-rl;
+        position: fixed;
+        font-size: var(--font-logos);
+        color: var(--color-black2);
+        font-weight: 600;
+        right: 0.5rem;
+        bottom: 8rem;
+    }
+    .email__line {
+        width: 1px ;
+        position: absolute;
+        bottom: -13rem;
+        right: 1rem;
+        height: 200px;
+        background-color: var(--color-black2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+@media  (min-width: 419px) and (max-width: 480px) {
+    .main {
+        padding: 0rem 2rem;
+    }
+    .header {
+        margin: 0rem 1rem;
+    }
+    text {
+        font-size: var(--font-logos);
+     }
+     .header__name {
+        font-size: var(--font-desqss);
+        line-height: 3.5rem;
+     }
+     .h3 {
+        font-size: var(--font-desqs);
+        line-height: 3.5rem;
+     }
+     .header__para {
+        width: 100%;
+        line-height: 2rem;
+     }
+     .header__social {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 15rem;
+    }
+    .email__display {
+        writing-mode: vertical-rl;
+        position: fixed;
+        font-size: var(--font-logos);
+        color: var(--color-black2);
+        font-weight: 600;
+        right: 0.5rem;
+        bottom: 8rem;
+    }
+    .email__line {
+        width: 1px ;
+        position: absolute;
+        bottom: -13rem;
+        right: 1rem;
+        height: 200px;
+        background-color: var(--color-black2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+@media  (min-width: 481px) and (max-width: 600px) {
+    .main {
+        padding: 0rem 2rem;
+    }
+    .header {
+        margin: 0rem 1rem;
+    }
+    text {
+        font-size: var(--font-logos);
+     }
+     .header__name {
+        font-size: var(--font-desq);
+        line-height: 3rem;
+     }
+     .h3 {
+        font-size: var(--font-desq);
+        line-height: 2.5rem;
+     }
+     .header__para {
+        width: 100%;
+        line-height: 2rem;
+     }
+     .email__display {
+        writing-mode: vertical-rl;
+        position: fixed;
+        font-size: var(--font-logos);
+        color: var(--color-black2);
+        font-weight: 600;
+        right: 0.4rem;
+        bottom: 8rem;
+    }
+     .email__line {
+        width: 1px ;
+        position: absolute;
+        bottom: -13rem;
+        right: 1.1rem;
+        height: 200px;
+        background-color: var(--color-black2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+@media  (min-width: 601px) and (max-width: 767px) {
+    .header__para {
+        width: 100%;
+        line-height: 2rem;
+     }
+
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+    .header__para {
+        width: 100%;
+        line-height: 2rem;
+     }
+     
+
+}

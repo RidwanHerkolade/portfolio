@@ -1,0 +1,66 @@
+form {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+.form__divs {
+    width: 100%;
+}
+.form__divs h1 {
+    color: var(--color-blue);
+    font-size: var(--font-new);
+    font-weight: 800;
+}
+.form__input {
+    margin: 1rem 0rem;
+}
+.form__input label {
+    font-size: var(--font-logo);
+    margin: 0.2rem 0rem;
+    color: var(--color-blue);
+    font-weight: 700;
+    
+}
+.input {
+    width: 100%;
+}
+.input input {
+    width: 100%;
+    padding: 0.4rem 0.4rem;
+    border: 0.5px solid var(--color-blue);
+    color: var(--color-h3);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    font-family: var(--font-family);
+    font-size: var(--font-logo);
+    outline: none;
+}
+.input textarea {
+    width: 100%;
+    resize: none;
+    padding: 1rem;
+    outline: none;
+    border: 0.5px solid var(--color-blue);
+    font-size: var(--font-logo);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    color: var(--color-h3);
+    font-family: var(--font-family);
+}
+.buttons {
+    padding: 0.4rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    font-family: var(--font-family);
+    font-size: var(--font-logos);
+    color: var(--color-blue);
+    border: 0.5px solid var(--color-blue);
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttons:hover{
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    font-weight: 700;
+}

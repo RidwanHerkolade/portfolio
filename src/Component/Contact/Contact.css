@@ -1,0 +1,80 @@
+.contact__divs {
+   
+}
+.contact__div {
+    margin: 4rem 7rem;
+}
+.contact__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.contact__para {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-logo);
+    font-weight: 400;
+    color: var(--color-h3);
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+.contact__icons {
+    display: flex;
+    gap: 0.6rem;
+    margin: 1rem 0rem;
+}
+.contact__icons a{
+    display:flex ;
+    padding: 0.3rem;
+    justify-content: center;
+    background-color: var(--color-h3);
+    border-radius: 1.5rem;
+}
+@media (min-width: 280px) and (max-width: 390px) {
+    .contact__div {
+        margin: 4rem 3rem;
+    }
+    .contact__para {
+        width: 90%;
+    }
+
+}
+@media (min-width: 391px) and (max-width: 480px) {
+    .contact__div {
+        margin: 4rem 3rem;
+    }
+    .contact__para {
+        width: 90%;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 600px) {
+    .contact__div {
+        margin: 4rem 3rem;
+    }
+    .contact__para {
+        width: 90%;
+    }
+
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    .contact__div {
+        margin: 4rem 7rem;
+    }
+    .contact__para {
+        width: 80%;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contact__div {
+        margin: 4rem 7rem;
+    }
+    .contact__para {
+        width: 70%;
+    }
+
+}

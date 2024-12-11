@@ -1,0 +1,132 @@
+.abt {
+    margin: 3rem 7rem;
+}
+.about__div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.about__divs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__hs {
+    display: flex;
+    justify-content: flex-start;
+}
+.about__h1 {
+    display: flex;
+    border: 1px solid var(--color-blue);
+    padding: 0.4rem 1.5rem;
+    font-weight: 700;
+    border-radius: 0.1rem;
+    font-size: var(--font-logos);
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+.about__content {
+    font-size: var(--font-logos);
+    margin: 1rem 0rem;
+    color: var(--color-h3);
+    font-weight: 600;
+}
+.label {
+    font-size: var(--font-logos);
+    font-weight: 600;
+    color: var(--color-black2);
+}
+.about__img {
+    width: 100%;
+    height: 100%;
+}
+.technology{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+.tech__name {
+    background-color: var(--color-black2);
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    color: var(--color-white);
+    font-size: var(--font-smallz);
+    display: flex;
+    text-align: center;
+    align-items: center !important;
+    justify-items: center !important;
+}
+.about__img img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 280px) and (max-width: 390px) {
+    .abt {
+        margin: 2rem 3rem;
+    }
+    .about__div {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem 0rem;
+    }
+    .about__img {
+        order: -1;
+    }
+
+}
+@media (min-width: 391px) and (max-width: 480px) {
+    .abt {
+        margin: 2rem 3rem;
+    }
+    .about__div {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem 0rem;
+    }
+    .about__img {
+        order: -1;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 600px) {
+    .about__div {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem 0rem;
+    }
+    .about__img {
+        order: -1;
+    }
+    .abt {
+        margin: 2rem 3rem;
+    }
+
+}
+@media (min-width: 601px) and (max-width: 767px) {
+    .about__div {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem 0rem;
+    }
+    .about__img {
+        order: -1;
+    }
+    .abt {
+        margin: 2rem 3rem;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .about__div {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem 0rem;
+    }
+    .about__img {
+        order: -1;
+    }
+    .abt {
+        margin: 2rem 7rem;
+    }
+
+}

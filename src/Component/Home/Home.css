@@ -1,0 +1,15 @@
+.app {
+    width: 100% !important;
+    padding: 0rem;
+    overflow: hidden;
+    margin: 0rem;
+}
+.bubbles-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Push bubbles behind all content */
+    background: black; /* Ensure a black background behind bubbles */
+  }
