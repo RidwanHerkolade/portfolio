@@ -29,10 +29,8 @@ const HeaderContent = () => {
         <h1 className="header__name">Ridwan Akolade.</h1>
         <h3 className="h3">Crafting seamless digital experience.</h3>
         <p className="header__para">
-          I’m a passionate <small className="span">front-end developer</small>{" "}
-          with a keen eye for design and detail. I specialize in creating sleek,
-          responsive web experiences that blend functionality with creativity.
-          I’m here to transform your vision into reality
+          I’m a dedicated <small className="span">front-end developer</small>{" "}
+           driven by a passion for crafting visually stunning and user-centric digital experiences. With expertise in building sleek, responsive interfaces, I merge creativity with functionality to bring ideas to life. Let’s collaborate to turn your vision into a seamless and impactful reality
         </p>
         <div className="yellow">
           {" "}

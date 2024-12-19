@@ -1,0 +1,5 @@
+.toast__divs {
+    font-family: var(--font-family);
+    font-size: var(--font-logo);
+    z-index: 1000;
+  }

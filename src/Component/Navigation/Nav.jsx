@@ -6,7 +6,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { motion } from "framer-motion";
 import "./Nav.css";
-
 const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
   const [hide, setHide] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,7 +34,6 @@ const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
       document.body.classList.remove("no-scroll");
     };
   }, []);
-
   return (
     <motion.nav
       initial={{ y: 50, opacity: 0 }}
@@ -118,7 +116,11 @@ const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
         <div className="menu">
           <CloseIcon
             onClick={handleMenu}
-            style={{ fontSize: "2.5rem", color:"rgb(18, 24, 54)", fontWeight: "800"}}
+            style={{
+              fontSize: "2.5rem",
+              color: "rgb(18, 24, 54)",
+              fontWeight: "800",
+            }}
             className="menu__icon"
           />
         </div>
@@ -127,7 +129,11 @@ const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
           <MenuIcon
             onClick={handleMenu}
             className="menu__icon"
-            style={{ fontSize: "2.5rem", color:"rgb(18, 24, 54)" , fontWeight: "800"}}
+            style={{
+              fontSize: "2.5rem",
+              color: "rgb(18, 24, 54)",
+              fontWeight: "800",
+            }}
           />
         </div>
       )}

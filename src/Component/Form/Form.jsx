@@ -19,7 +19,8 @@ const Form = () => {
             () => {
               console.log('SUCCESS!');
               toast.success("message sent", {
-                  position: "top-right"
+                  position: "top-right",
+                  // style: { backgroundColor: "#dc3545", color: "red" }
               }
               )
             },
