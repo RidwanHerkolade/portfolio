@@ -49,7 +49,7 @@ const Contact = () => {
             <a href="mailto:ridwanlasisi3@gmail.com">
               <EmailIcon className="header__icons" />
             </a>
-            <a href="https://x.com/ridwanulla469">
+            <a href="https://x.com/akolade469">
               <TwitterIcon className="header__icons" />
             </a>
             <a href="https://www.linkedin.com/in/lasisi/">
