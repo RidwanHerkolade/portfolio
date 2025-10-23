@@ -13,7 +13,7 @@ const Header = () => {
         <div className="header__social">
           <div className="header__icon">
             <a href="https://github.com/RidwanHerkolade"><GitHubIcon className="header__icons"/></a>
-            <a href='https://x.com/ridwanulla469'> <TwitterIcon className="header__icons"/></a>
+            <a href='https://x.com/akolade469'> <TwitterIcon className="header__icons"/></a>
             <a href="https://www.linkedin.com/in/lasisi/"><LinkedInIcon className="header__icons"/></a>
             
           </div>
