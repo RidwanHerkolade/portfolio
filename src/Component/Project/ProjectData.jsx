@@ -11,7 +11,7 @@ export const ProjectData = [
              tools4: "Firebase",
              tools5: "Sonner"
         },
-        path: "https://ridwanakolade.netlify.app/",
+        path: "https://resumee-self.vercel.app/",
         gitPath: "https://github.com/RidwanHerkolade/resumee"
     },
      {
