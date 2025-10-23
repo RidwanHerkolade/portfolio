@@ -28,7 +28,7 @@ export const ProjectData = [
         gitPath: "https://github.com/RidwanHerkolade/WorkTracker"
     },
     {
-        id: "1",
+        id: "2",
         title: "Dashboard",
         description: "Dashboard is a web app that ensures secure user authentication with Firebase, enabling registration, login, and access to personalized content. It supports email/password sign-ins, third-party providers like Google and Facebook, and offers real-time feedback.",
         img: "../img/dashImg.jpg",
@@ -43,7 +43,7 @@ export const ProjectData = [
 
     },
     {
-        id: "2",
+        id: "3",
         title: "EcoMart",
         description: "EcoMart is a responsive e-commerce web app for browsing and purchasing electronics and shoes. ",
         img: "../img/ecoimg.jpg",
@@ -57,7 +57,7 @@ export const ProjectData = [
         gitPath: "https://github.com/RidwanHerkolade/Ecomart"
     },
     {
-        id: "3",
+        id: "4",
         title: "SoS",
         description: "sos is an innovative web platform designed to foster education and growth responsive platform that delivers key information, values, and updates seamlessly",
         img: "../img/sch.jpg",
@@ -71,7 +71,7 @@ export const ProjectData = [
         gitPath: "https://github.com/RidwanHerkolade/SOS-app"
     },
     {
-        id: "4",
+        id: "5",
         title: "Keeper",
         description: "keeper is a web app designed to help users keep track of their daily to-do lists and tasks. It allows users to create, update, and delete tasks, ensuring they stay organized and on top of their daily responsibilities",
         img: "../img/keeper.jpg",
@@ -82,10 +82,9 @@ export const ProjectData = [
         },
         path: "https://ridkeep.netlify.app",
         gitPath: "https://github.com/RidwanHerkolade/Keeper-App"
-
     },
     {
-        id: "5",
+        id: "6",
         title: "Cava",
         description: "Cava is a responsive e-commerce web app for browsing and purchasing unisex shirt and other wears.",
         img: "../img/cava.jpg",
@@ -93,15 +92,14 @@ export const ProjectData = [
             tools1: "Html",
             tools2: "Css",
             tools3: "Javascript",
-            tools4: "Css Animation"
-            
+            tools4: "Css Animation" 
         },
         path: "https://peaceful-meerkat-5764a7.netlify.app",
         gitPath: "https://github.com/RidwanHerkolade/e-commerse"
 
     },
     {
-        id: "6",
+        id: "7",
         title: "SaveSpace",
         description: "SaveSpace is a responsive landing page web app.",
         img: "../img/savespce.jpg",
@@ -114,8 +112,5 @@ export const ProjectData = [
         },
         path: "https://savespce.netlify.app/",
         gitPath:"https://github.com/RidwanHerkolade/SavesSpace"
-
     },
-    
-
 ]

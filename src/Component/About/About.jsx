@@ -41,9 +41,7 @@ const About = () => {
             efficient code, I constantly seek opportunities to refine my skills
             and stay ahead of emerging trends in web development. I thrive in
             collaborative environments, where teamwork and innovation drive
-            success. Beyond my professional work, I enjoy exploring new coding
-            techniques and engaging in personal projects to sharpen my
-            expertise. I’m eager to bring my dedication, creativity, and
+            success. I’m eager to bring my dedication, creativity, and
             technical skills to your team, contributing to impactful projects
             that deliver real value.
           </motion.div>
