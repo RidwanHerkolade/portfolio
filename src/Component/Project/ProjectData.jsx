@@ -1,5 +1,33 @@
 export const ProjectData = [
     {
+        id: "0",
+        title: "Resumee",
+        description: "resumeee is a responsive web app that allows users to create and customize preofessional resummee",
+        img: "../img/res.jpg",
+        tools: {
+            tools1: "React js",
+             tools2: "Tailwind-css",
+             tools3: "Framer motion",
+             tools4: "Firebase",
+             tools5: "Sonner"
+        },
+        path: "https://ridwanakolade.netlify.app/",
+        gitPath: "https://github.com/RidwanHerkolade/resumee"
+    },
+     {
+        id: "1",
+        title: "Tracker",
+        description: "tracker is a responsive web app that allows users to track their daily expenses and income",
+        img: "../img/yoo.jpg",
+        tools: {
+            tools1: "React js",
+             tools2: "Tailwind-css",
+             tools5: "Sonner"
+        },
+        path: "https://worktrackar.netlify.app/",
+        gitPath: "https://github.com/RidwanHerkolade/WorkTracker"
+    },
+    {
         id: "1",
         title: "Dashboard",
         description: "Dashboard is a web app that ensures secure user authentication with Firebase, enabling registration, login, and access to personalized content. It supports email/password sign-ins, third-party providers like Google and Facebook, and offers real-time feedback.",
@@ -41,8 +69,6 @@ export const ProjectData = [
         },
         path: "https://sosife.netlify.app/",
         gitPath: "https://github.com/RidwanHerkolade/SOS-app"
-
-
     },
     {
         id: "4",

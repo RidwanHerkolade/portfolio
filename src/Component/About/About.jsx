@@ -53,10 +53,10 @@ const About = () => {
           <div className="technology">
             <div className="tech__name">HTML</div>
             <div className="tech__name">CSS</div>
+             <div className="tech__name">TAILWIND CSS</div>
             <div className="tech__name">JAVASCRIPT</div>
             <div className="tech__name">REACT JS</div>
             <div className="tech__name">VERCEL/NETLIFY</div>
-            <div className="tech__name">STYLED COMPONENT</div>
             <div className="tech__name">FRAMER MOTION</div>
             <div className="tech__name">FIREBASE</div>
             <div className="tech__name">GIT</div>
