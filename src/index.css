@@ -5,7 +5,7 @@
 }
 :root {
   --background1: rgba(183, 4, 133, 0.1);
-  --font-family: "Monda", sans-serif; 
+  --font-family: "Monda", sans-serif;
   --font-familys: "Dancing Script", cursive;
   --font-fold: 20px;
   --font-smallz: 9px;
@@ -15,10 +15,14 @@
   --font-books: 12px;
   --font-nav: 1rem;
   --font-smallz: 13px;
-  --detailBg: #E5E5E5;
+  --detailBg: #e5e5e5;
   --font-logo: 16px;
   --font-logos: 19px;
   --color-red: red;
+
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f5f9;
+  --color-gray-200: #e2e8f0;
   --font-new: 28px;
   --font-news: 23px;
   --color-blue: rgb(18, 24, 54);
@@ -26,48 +30,54 @@
   --font-desqs: 35px;
   --font-desqss: 40px;
   --font-header: 55px;
-  --color-grey: #D6DBF5;
-  --color-drop: #F5F5F5;
-  --color-footer: #080A12;
-  --color-border: #080A12;
-  --color-para: #A3ABB6;
+  --color-grey: #d6dbf5;
+  --color-drop: #f5f5f5;
+  --color-footer: #080a12;
+  --color-border: #080a12;
+  --color-para: #a3abb6;
   --color-blackie: black;
-  --color-chart:#FBFBFB;
-  --color-black: #6A6A6A;
+  --color-chart: #fbfbfb;
+  --color-black: #6a6a6a;
   --color-zero: #000000;
   --color-black2: #0a3e72;
-  --color-yellow: #FBFF33;
-  --color-choose: #1C6335;
+  --color-yellow: #fbff33;
+  --color-choose: #1c6335;
   --color-white: white;
-  --color-nav: #EBECF0;
-  --color-whites:#FAFAFA;
-  --color-green:#458A5D;
-  --color-dipgreen: #1C6335;
-  --color-lightgreen: #1C6335;
-  --color-purple: #4D5B9E;
-  --color-purples: rgb(145,129,251);
-  --color-purpless: rgb(183,172,252);
-  --color-h3:  rgb(77, 89, 107);
-  --color-dpurple: #D6DBF5;
-  --color-mpurple:#293264;
-  --color-gradient: linear-gradient(10deg, #080A12 10%, rgba(8, 10, 18, 0) 100%);
-  --color-logos: #127D60;
-  --box-shadow:  0px 0px 30px 0px #00000014;
+  --color-nav: #ebecf0;
+  --color-whites: #fafafa;
+  --color-green: #458a5d;
+  --color-dipgreen: #1c6335;
+  --color-lightgreen: #1c6335;
+  --color-purple: #4d5b9e;
+  --color-purples: rgb(145, 129, 251);
+  --color-purpless: rgb(183, 172, 252);
+  --color-h3: rgb(77, 89, 107);
+  --color-dpurple: #d6dbf5;
+  --color-mpurple: #293264;
+  --color-gradient: linear-gradient(
+    10deg,
+    #080a12 10%,
+    rgba(8, 10, 18, 0) 100%
+  );
+  --color-logos: #127d60;
+  --box-shadow: 0px 0px 30px 0px #00000014;
 }
 body {
   padding: 0rem;
   margin: 0rem;
   font-family: var(--font-family);
-
 }
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-h1, h2,h3 ,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   padding: 0rem;
   margin: 0rem;
-
 }
 ul {
   list-style: none;
@@ -75,7 +85,3 @@ ul {
 a {
   text-decoration: none;
 }
-
-
-
-

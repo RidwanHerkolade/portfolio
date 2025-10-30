@@ -41,24 +41,10 @@ const About = () => {
             efficient code, I constantly seek opportunities to refine my skills
             and stay ahead of emerging trends in web development. I thrive in
             collaborative environments, where teamwork and innovation drive
-            success. I’m eager to bring my dedication, creativity, and
-            technical skills to your team, contributing to impactful projects
-            that deliver real value.
+            success. I’m eager to bring my dedication, creativity, and technical
+            skills to your team, contributing to impactful projects that deliver
+            real value.
           </motion.div>
-          <label htmlFor="label" className="label">
-            Below are the list of technology have worked with
-          </label>
-          <div className="technology">
-            <div className="tech__name">HTML</div>
-            <div className="tech__name">CSS</div>
-             <div className="tech__name">TAILWIND CSS</div>
-            <div className="tech__name">JAVASCRIPT</div>
-            <div className="tech__name">REACT JS</div>
-            <div className="tech__name">VERCEL/NETLIFY</div>
-            <div className="tech__name">FRAMER MOTION</div>
-            <div className="tech__name">FIREBASE</div>
-            <div className="tech__name">GIT</div>
-          </div>
         </div>
         <div className="about__img">
           <motion.img
@@ -78,5 +64,4 @@ const About = () => {
     </motion.div>
   );
 };
-
 export default About;

@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import About from "../About/About";
 import Project from "../Project/Project";
 import Contact from "../Contact/Contact";
+import { Skills } from "../Skills/Skills";
 import "./Home.css";
 
 
@@ -32,7 +33,8 @@ const Home = () => {
       {/* <main> */}
         <Nav scrollToAbout={scrollToAbout} scrollToProject={scrollToProject} scrollToContact={scrollToContact}/>
         <Header />
-        <About />
+        {/* <About /> */}
+         <Skills/>
         <Project />
         <Contact />
 

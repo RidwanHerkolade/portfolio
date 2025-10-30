@@ -41,9 +41,7 @@ const Contact = () => {
           }}
         >
           <p className="contact__para">
-            I'm open to opportunities(jobs and internships) to work and improve
-            my skills. Also, you can reach out to me on any of the mentioned
-            media for collaboration.
+            I’m currently open to new opportunities (remote and hybrid), freelance projects, and collaborations. Let’s discuss how we can work together!
           </p>
           <div className="contact__icons">
             <a href="mailto:ridwanlasisi3@gmail.com">
