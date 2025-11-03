@@ -34,7 +34,7 @@ const HeaderContent = () => {
         </p>
         <div className="yellow">
           {" "}
-          <a className="resume" href="/img/ridwanAkolade_resume.pdf" target="_blank" download="ridwan_resume.pdf">Resume</a>
+          <a className="resume" href="/img/ridwan_lasisi_frontEnd.pdf" target="_blank" download="ridwan_lasisi_frontEnd.pdf">Resume</a>
         </div>
       </motion.div>
     </motion.main>

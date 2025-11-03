@@ -104,9 +104,9 @@ const Nav = ({ scrollToAbout, scrollToContact, scrollToProject }) => {
         <div className="">
           <a
             className="btn"
-            href="/img/ridwanAkolade_resume.pdf"
+            href="/img/ridwan_lasisi_frontEnd.pdf"
             target="_blank"
-            download="ridwan_resume.pdf"
+            download="ridwan_lasisi_frontEnd.pdf"
           >
             Resume
           </a>
